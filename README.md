@@ -1,16 +1,27 @@
-# Notes
-Notes on programming...
+Fill the open ( ) accordingly...
 
 ## Backend Work Flow
 
 #### Assign a task to yourself
+Go to GitHub ZenHub extension and find an available task
 
-#### Pull latest code from GitHub
+#### Pull latest code from GitHub?
+First time working on this project?
+_git clone (ssh command line from GitHub)_
+
+Already working on the project and need the latest code?
 _git pull origin develop_
 
+Next, crate a new branch to work on:
+_git checkout -b ((fix/feat/chore)/branch-name)_
+
+No spaces allowed for the branch-name!
+
 #### Work on given task
+Try working on the task and ask for help if needed.
 
 #### Test current task
+Use Postman or Insomnia, for example, to test your work.
 
 #### Commit current task
 Choose one commit style: <br><br>
