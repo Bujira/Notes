@@ -6,6 +6,7 @@ Notes on programming...
 #### Assign a task to yourself
 
 #### Pull latest code from GitHub
+_git pull origin develop_
 
 #### Work on given task
 
