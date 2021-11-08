@@ -6,13 +6,13 @@ Fill the open ( ) accordingly...<br>
 Go to GitHub ZenHub extension and find an available task<br><br>
 
 ### Pull latest code from GitHub
-First time working on this project?
+First time working on this project?<br>
 _git clone (ssh command line from GitHub)_<br><br>
 
-Already working on the project and need the latest code?
+Already working on the project and need the latest code?<br>
 _git pull origin develop_<br><br>
 
-Next, crate a new branch to work on:
+Next, crate a new branch to work on:<br>
 _git checkout -b ((fix/feat/chore)/branch-name)_<br><br>
 
 No spaces allowed for the branch-name!<br><br>
