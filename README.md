@@ -39,7 +39,7 @@ fix - if a fix is beign added <br>
 chore - if you are commiting something else<br><br>
 
 Example:<br>
-_git commit -m "feat:create-virtual-card"_<br><br>
+_git commit -m "feat: create-virtual-card"_<br><br>
 
 Remember to commit along the way, keeping track of your work. Avoid one single commit!<br><br>
 
