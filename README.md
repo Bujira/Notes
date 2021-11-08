@@ -1,11 +1,11 @@
 Fill the open ( ) accordingly...<br>
 
-## Backend Work Flow
+# Backend Work Flow
 
-#### Assign a task to yourself
+### Assign a task to yourself
 Go to GitHub ZenHub extension and find an available task<br><br>
 
-#### Pull latest code from GitHub
+### Pull latest code from GitHub
 First time working on this project?
 _git clone (ssh command line from GitHub)_<br><br>
 
@@ -17,13 +17,13 @@ _git checkout -b ((fix/feat/chore)/branch-name)_<br><br>
 
 No spaces allowed for the branch-name!<br><br>
 
-#### Work on given task
+### Work on given task
 Try working on the task and ask for help if needed.<br><br>
 
-#### Test current task
+### Test current task
 Use Postman or Insomnia, for example, to test your work.<br><br>
 
-#### Commit current task
+### Commit current task
 Choose one commit style: <br><br>
 _git commit -m "feat: (insert task name)"_ <br>
 _git commit -m "fix: (describe issue fixed)"_ <br>
@@ -34,9 +34,9 @@ chore - if a subtask is being added<br><br>
 
 Remember to commit along the way, keeping track of your work. Avoid one single commit!<br><br>
 
-#### Push latest code to git hub
+### Push latest code to git hub
 
-#### Create Pull Request
+### Create Pull Request
 ! Make sure DEVELOP branch is selected <br>
 ! Assign the pull request to yourself or team memebers working on the task <br>
 ! Link an existing issue to the Pull Request
