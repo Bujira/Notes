@@ -30,7 +30,7 @@ Try working on the task and ask for help if needed.<br><br>
 Use Postman or Insomnia, for example, to test your work.<br><br>
 
 ### 5. Commit current task
-Choose one commit style: <br><br>
+Choose the appropriate commit style: <br><br>
 _git commit -m "feat: ( insert task name )"_ <br>
 _git commit -m "fix: ( describe issue fixed )"_ <br>
 _git commit -m "chore: ( describe current changes )"_ <br><br>
