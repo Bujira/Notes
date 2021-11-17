@@ -9,7 +9,10 @@ Go to GitHub ZenHub extension and find an available task<br><br>
 First time working on this project?<br>
 _git clone ( ssh command line from GitHub )_<br><br>
 
-Already working on the project and need the latest code?<br>
+Already working on the project and need the latest code?<br><br>
+First, make sure you are at the develop branch:<br>
+_git checkout develop_<br>
+Then, pull latest version of the project code:<br>
 _git pull origin develop_<br><br>
 
 ### 3. Work on given task
