@@ -12,7 +12,8 @@ _git clone ( ssh command line from GitHub )_<br><br>
 Already working on the project and need the latest code?<br>
 _git pull origin develop_<br><br>
 
-Next, create a new branch to work on:<br>
+### 3. Work on given task
+Create a new branch to work on:<br>
 _git checkout -b ( (fix/feat/chore)/branch-name )_<br><br>
 feat - working on a new feature <br>
 fix - fixing an issue <br>
@@ -23,7 +24,6 @@ No spaces allowed for the branch-name!<br><br>
 Example:<br>
 _git checkout -b feat/create-virtual-card_<br><br>
 
-### 3. Work on given task
 Try working on the task and ask for help if needed.<br><br>
 
 ### 4. Test current task
@@ -44,6 +44,10 @@ _git commit -m "feat: create virtual card"_<br><br>
 Remember to commit along the way, keeping track of your work. Avoid one single commit!<br><br>
 
 ### 6. Push latest code to git hub
+_git push origin ( branch name )_<br><br>
+
+Example:<br>
+_git push origin feat/create-virtual-card_<br><br>
 
 ### 7. Create Pull Request
 !!! Make sure DEVELOP branch is selected <br>
