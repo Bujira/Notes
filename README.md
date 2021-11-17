@@ -50,6 +50,7 @@ Example:<br>
 _git push origin feat/create-virtual-card_<br><br>
 
 ### 7. Create Pull Request
+Go to the Pull Request page on the GitHub repository and create a pull request.<br><br>
 !!! Make sure DEVELOP branch is selected <br>
 !!! Assign the pull request to yourself or team memebers working on the task <br>
 !!! Link an existing issue to the Pull Request
