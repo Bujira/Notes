@@ -56,18 +56,18 @@ _git push origin feat/create-virtual-card_<br><br>
 Go to the Pull Request page on the GitHub repository and create a pull request.<br><br>
 !!! Make sure DEVELOP branch is selected <br>
 !!! Assign the pull request to yourself or team memebers working on the task <br>
-!!! Link an existing issue to the Pull Request
+!!! Link an existing issue to the Pull Request<br><br>
 
 ### Docker & Prisma Projects
-First make sure your .dotenv file is configured correctly, then...<br><br>
+First make sure your .dotenv file is configured correctly, then...<br>
 
-Download postgres image (if you don't have it already):
+Download postgres image (if you don't have it already):<br>
 _docker run --name ( container name ) -e POSTGRES_PASSWORD=( mysecretpassword ) -d postgres_<br><br>
 
-Download redis image (if you don't have it already):
-_docker run --name some-redis -d redis_<br><br>
+Download redis image (if you don't have it already):<br>
+_docker run --name ( container name ) -d redis_<br><br>
 
-Download project db and sync db with db manager (DBeaver for example):
-_yarn docker:up_<br><br>
-_yarn prisma generate_<br><br>
-_yarn prisma db push_
+Download project db and sync db with db manager (DBeaver for example):<br>
+_yarn docker:up_<br>
+_yarn prisma generate_<br>
+_yarn prisma db push_<br><br>
