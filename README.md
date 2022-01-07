@@ -57,3 +57,17 @@ Go to the Pull Request page on the GitHub repository and create a pull request.<
 !!! Make sure DEVELOP branch is selected <br>
 !!! Assign the pull request to yourself or team memebers working on the task <br>
 !!! Link an existing issue to the Pull Request
+
+### Docker & Prisma Projects
+First make sure your .dotenv file is configured correctly, then...<br><br>
+
+Download postgres image (if you don't have it already):
+_docker run --name ( container name ) -e POSTGRES_PASSWORD=( mysecretpassword ) -d postgres_<br><br>
+
+Download redis image (if you don't have it already):
+_docker run --name some-redis -d redis_<br><br>
+
+Download project db and sync db with db manager (DBeaver for example):
+_yarn docker:up_<br><br>
+_yarn prisma generate_<br><br>
+_yarn prisma db push_
